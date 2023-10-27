@@ -1,0 +1,14 @@
+// hashids.wai
+resource hashids {
+    static constructor: func() -> hashids
+
+    // Encodes a slice of u64 values into a single hashid.
+    encode: func(values: list<u64>) -> string
+    // Decodes a single hashid into a slice of u64 values.
+    decode: func(input: string) -> list<u64>
+
+    // Encodes a hex string into a hashid.
+    encode-hex: func(hex: string) -> string
+    // Decodes a hashid into a hex string.
+    decode-hex: func(input: string) -> string
+}

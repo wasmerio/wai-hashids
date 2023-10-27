@@ -1,0 +1,14 @@
+[package]
+name = "wai/wai-hashids"
+version = "0.1.0"
+description = "Hashids with WAI bindings"
+repository = "https://github.com/wasmerio/wai-hashids"
+
+[[module]]
+name = "hashids"
+source = "wai_hashids.wasm"
+
+[module.bindings]
+wai-version = "0.2.0"
+exports = "./bindings.wai"
+

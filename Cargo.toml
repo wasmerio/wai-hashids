@@ -1,0 +1,17 @@
+[package]
+name = "wai-hashids"
+description = "Hashids with WAI bindings"
+version = "0.1.0"
+edition = "2021"
+
+[package.metadata.wasmer]
+namespace = "wai"
+abi = "none"
+bindings = { wai-version = "0.2.0", exports = "./bindings.wai" }
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+harsh = "0.2.2"
+wai-bindgen-rust = "0.2.3"
