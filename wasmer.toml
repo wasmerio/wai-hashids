@@ -1,8 +1,9 @@
 [package]
 name = "wai/wai-hashids"
-version = "0.1.0"
+version = "0.1.1"
 description = "Hashids with WAI bindings"
 repository = "https://github.com/wasmerio/wai-hashids"
+readme = "README.md"
 
 [[module]]
 name = "hashids"

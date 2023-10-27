@@ -1,7 +1,8 @@
 [package]
 name = "wai-hashids"
 description = "Hashids with WAI bindings"
-version = "0.1.0"
+readme = "README.md"
+version = "0.1.1"
 edition = "2021"
 
 [package.metadata.wasmer]
