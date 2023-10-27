@@ -7,7 +7,6 @@ This is an example demonstrating the popular HashIds implementation with automat
 ```bash
 $ rustup target add wasm32-unknown-unknown
 $ cargo build --target=wasm32-unknown-unknown --release
-$ cp target/wasm32-unknown-unknown/release/wai_hashids.wasm .
 ```
 
 ## Publish into Wasmer

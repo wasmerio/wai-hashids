@@ -6,7 +6,7 @@ repository = "https://github.com/wasmerio/wai-hashids"
 
 [[module]]
 name = "hashids"
-source = "wai_hashids.wasm"
+source = "target/wasm32-unknown-unknown/release/wai_hashids.wasm"
 
 [module.bindings]
 wai-version = "0.2.0"
